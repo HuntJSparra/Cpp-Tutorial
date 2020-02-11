@@ -1,2 +1,2 @@
 # Cpp-Tutorial
-Code responsibility for assignments from C++ college class
+Code repository for assignments from C++ college class
