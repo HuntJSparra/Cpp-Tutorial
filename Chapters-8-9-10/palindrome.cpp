@@ -12,7 +12,7 @@ int main() {
         std::cout << "Input word(s) to check (q to quit): " << std::endl;
         std::cin >> word;
         isPalindrome(word);
-    } while (word.compare("q") != 0);
+    } while (word.compare("q") != 0 && !std::cin.eof());
 
     return(0);
 }

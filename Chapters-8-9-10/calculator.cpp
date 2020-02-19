@@ -37,7 +37,7 @@ int main() {
                 return(0);
         }
         std::cout << "Current total: " << total << std::endl;
-    } while (true); // uh-oh
+    } while (!std::cin.eof()); // uh-oh
 
     return 0;
 }

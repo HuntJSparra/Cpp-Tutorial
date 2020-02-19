@@ -10,7 +10,7 @@ int main() {
         std::cout << "Input a number to check if it is prime (we include negatives): (CTRL-C to quit)" << std::endl;
         std::cin >> number;
         isPrime(number);
-    } while (true); // Uh-oh
+    } while (!std::cin.eof()); // Uh-oh
 
     return(0);
 }
